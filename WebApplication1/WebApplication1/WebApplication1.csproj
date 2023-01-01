@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8694DB32-0870-4449-B6F2-A6C6C70443F0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="adminduyurular.aspx" />
+    <Content Include="admingiris.aspx" />
+    <Content Include="adminiletisim.aspx" />
+    <Content Include="anaasayfa.aspx" />
+    <Content Include="anasayfa.aspx" />
+    <Content Include="catering.aspx" />
+    <Content Include="cateringicerik.aspx" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\simple-sidebar.css" />
+    <Content Include="css\slider.css" />
+    <Content Include="css\style.css" />
+    <Content Include="duyurudetay.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="hakkimizda.aspx" />
+    <Content Include="iletisim.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\about_img.jpg" />
+    <Content Include="images\arrow-hover.png" />
+    <Content Include="images\arrow.png" />
+    <Content Include="images\arrows.png" />
+    <Content Include="images\body_bg.png" />
+    <Content Include="images\footer_logo.png" />
+    <Content Include="images\hakkimizda.jpg" />
+    <Content Include="images\list-img.png" />
+    <Content Include="images\list_img.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo1.png" />
+    <Content Include="images\logom.png" />
+    <Content Include="images\marketing_img1.jpg" />
+    <Content Include="images\marketing_img2.jpg" />
+    <Content Include="images\marketing_img3.jpg" />
+    <Content Include="images\project1.jpg" />
+    <Content Include="images\project2.jpg" />
+    <Content Include="images\quotes-down.png" />
+    <Content Include="images\quotes.png" />
+    <Content Include="images\service-1.png" />
+    <Content Include="images\service-2.png" />
+    <Content Include="images\service-3.png" />
+    <Content Include="images\service-4.png" />
+    <Content Include="images\service-5.png" />
+    <Content Include="images\service-6.png" />
+    <Content Include="images\ssss.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery-1.9.0.min.js" />
+    <Content Include="js\jquery.nivo.slider.js" />
+    <Content Include="kulllanici.aspx" />
+    <Content Include="mama.aspx" />
+    <Content Include="mekan.aspx" />
+    <Content Include="mekanlar.aspx" />
+    <Content Include="mekanlaricerik.aspx" />
+    <Content Include="proje\Sehriyeli_Klasik_Pilav.jpg" />
+    <Content Include="rezervasyon.aspx" />
+    <Content Include="sanatci.aspx" />
+    <Content Include="sanatcilar.aspx" />
+    <Content Include="sanatcilaricerik.aspx" />
+    <Content Include="template\css\bootstrap.css" />
+    <Content Include="template\css\bootstrap.min.css" />
+    <Content Include="template\css\main.css" />
+    <Content Include="template\css\simple-sidebar.css" />
+    <Content Include="template\css\util.css" />
+    <Content Include="template\fonts\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="template\fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="template\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="template\fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="template\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="template\fonts\iconic\css\material-design-iconic-font.css" />
+    <Content Include="template\fonts\iconic\css\material-design-iconic-font.min.css" />
+    <Content Include="template\fonts\iconic\fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="template\fonts\Linearicons-Free-v1.0.0\icon-font.min.css" />
+    <Content Include="template\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.svg" />
+    <Content Include="template\fonts\ubuntu\UFL.txt" />
+    <Content Include="template\js\bootstrap.js" />
+    <Content Include="template\js\bootstrap.min.js" />
+    <Content Include="template\js\jquery-1.11.0.js" />
+    <Content Include="uyerezervasyonlarım.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="yeniadmin.aspx" />
+    <Content Include="yoneticigirisi.aspx" />
+    <Content Include="üyedetay.aspx" />
+    <Content Include="üyegirisi.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminduyurular.aspx.cs">
+      <DependentUpon>adminduyurular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminduyurular.aspx.designer.cs">
+      <DependentUpon>adminduyurular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admingiris.aspx.cs">
+      <DependentUpon>admingiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admingiris.aspx.designer.cs">
+      <DependentUpon>admingiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminiletisim.aspx.cs">
+      <DependentUpon>adminiletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminiletisim.aspx.designer.cs">
+      <DependentUpon>adminiletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anaasayfa.aspx.cs">
+      <DependentUpon>anaasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anaasayfa.aspx.designer.cs">
+      <DependentUpon>anaasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anasayfa.aspx.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anasayfa.aspx.designer.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="catering.aspx.cs">
+      <DependentUpon>catering.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="catering.aspx.designer.cs">
+      <DependentUpon>catering.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cateringicerik.aspx.cs">
+      <DependentUpon>cateringicerik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cateringicerik.aspx.designer.cs">
+      <DependentUpon>cateringicerik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="duyurudetay.aspx.cs">
+      <DependentUpon>duyurudetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="duyurudetay.aspx.designer.cs">
+      <DependentUpon>duyurudetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="hakkimizda.aspx.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hakkimizda.aspx.designer.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="iletisim.aspx.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iletisim.aspx.designer.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kulllanici.aspx.cs">
+      <DependentUpon>kulllanici.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kulllanici.aspx.designer.cs">
+      <DependentUpon>kulllanici.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mama.aspx.cs">
+      <DependentUpon>mama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mama.aspx.designer.cs">
+      <DependentUpon>mama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mekan.aspx.cs">
+      <DependentUpon>mekan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mekan.aspx.designer.cs">
+      <DependentUpon>mekan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mekanlar.aspx.cs">
+      <DependentUpon>mekanlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mekanlar.aspx.designer.cs">
+      <DependentUpon>mekanlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mekanlaricerik.aspx.cs">
+      <DependentUpon>mekanlaricerik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mekanlaricerik.aspx.designer.cs">
+      <DependentUpon>mekanlaricerik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rezervasyon.aspx.cs">
+      <DependentUpon>rezervasyon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rezervasyon.aspx.designer.cs">
+      <DependentUpon>rezervasyon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sanatci.aspx.cs">
+      <DependentUpon>sanatci.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sanatci.aspx.designer.cs">
+      <DependentUpon>sanatci.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sanatcilar.aspx.cs">
+      <DependentUpon>sanatcilar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sanatcilar.aspx.designer.cs">
+      <DependentUpon>sanatcilar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sanatcilaricerik.aspx.cs">
+      <DependentUpon>sanatcilaricerik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sanatcilaricerik.aspx.designer.cs">
+      <DependentUpon>sanatcilaricerik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uyerezervasyonlarım.aspx.cs">
+      <DependentUpon>uyerezervasyonlarım.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uyerezervasyonlarım.aspx.designer.cs">
+      <DependentUpon>uyerezervasyonlarım.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yeniadmin.aspx.cs">
+      <DependentUpon>yeniadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yeniadmin.aspx.designer.cs">
+      <DependentUpon>yeniadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yoneticigirisi.aspx.cs">
+      <DependentUpon>yoneticigirisi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yoneticigirisi.aspx.designer.cs">
+      <DependentUpon>yoneticigirisi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="üyedetay.aspx.cs">
+      <DependentUpon>üyedetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="üyedetay.aspx.designer.cs">
+      <DependentUpon>üyedetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="üyegirisi.aspx.cs">
+      <DependentUpon>üyegirisi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="üyegirisi.aspx.designer.cs">
+      <DependentUpon>üyegirisi.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\Amble-Regular-webfont.ttf" />
+    <Content Include="images\Thumbs.db" />
+    <Content Include="template\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="template\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="template\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="template\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="template\fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\core.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\list.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\path.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="template\fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="template\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="template\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="template\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="template\fonts\iconic\fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="template\fonts\iconic\fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="template\fonts\iconic\fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="template\fonts\iconic\fonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="template\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.eot" />
+    <Content Include="template\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.ttf" />
+    <Content Include="template\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.woff" />
+    <Content Include="template\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.woff2" />
+    <Content Include="template\fonts\poppins\Poppins-Black.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-BlackItalic.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-Bold.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-BoldItalic.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-ExtraBold.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-ExtraLight.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-Italic.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-Light.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-LightItalic.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-Medium.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-MediumItalic.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-Regular.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-SemiBold.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-Thin.ttf" />
+    <Content Include="template\fonts\poppins\Poppins-ThinItalic.ttf" />
+    <Content Include="template\fonts\ubuntu\Ubuntu-Bold.ttf" />
+    <Content Include="template\fonts\ubuntu\Ubuntu-BoldItalic.ttf" />
+    <Content Include="template\fonts\ubuntu\Ubuntu-Italic.ttf" />
+    <Content Include="template\fonts\ubuntu\Ubuntu-Light.ttf" />
+    <Content Include="template\fonts\ubuntu\Ubuntu-LightItalic.ttf" />
+    <Content Include="template\fonts\ubuntu\Ubuntu-Medium.ttf" />
+    <Content Include="template\fonts\ubuntu\Ubuntu-MediumItalic.ttf" />
+    <Content Include="template\fonts\ubuntu\Ubuntu-Regular.ttf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50647/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

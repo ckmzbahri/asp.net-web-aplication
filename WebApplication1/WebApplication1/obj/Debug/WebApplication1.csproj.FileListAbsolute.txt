@@ -1,0 +1,22 @@
+C:\Users\BAHRİ\Desktop\web projem\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\BAHRİ\Desktop\web projem\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\BAHRİ\Desktop\web projem\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\BAHRİ\Desktop\web projem\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\BAHRİ\Desktop\web projem\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\NITRO5\Videos\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\NITRO5\Videos\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\NITRO5\Videos\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\NITRO5\Videos\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\NITRO5\Videos\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\BAHRİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\BAHRİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\BAHRİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\BAHRİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+D:\BAHRİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\BAHRİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\bahrİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\bahrİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\bahrİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\bahrİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\bahrİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\bahrİ\ikinci sınıf\web projem\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
